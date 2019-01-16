@@ -1,0 +1,6 @@
+---
+# tasks file for itigoag.zoiper
+
+- name: Message
+  debug:
+    msg: "Your {{ ansible_system }} is not supported"
